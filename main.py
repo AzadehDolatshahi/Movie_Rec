@@ -1,6 +1,9 @@
+'''
+main program for dummy recommender
+'''
+
 import pandas as pd
 from recommender import recommend_random
-
 
 
 movies = pd.read_csv('./data/movies.csv')
